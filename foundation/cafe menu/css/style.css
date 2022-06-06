@@ -11,6 +11,17 @@ body .menu {
     padding: 2em;
 }
 
+body .menu h1 {
+    text-align: center;
+    font-family: Impact, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+body .menu .desc {
+    text-align: center;
+}
+
 body .menu h2 {
     text-align: center;
     font-family: Impact, sans-serif;
@@ -36,4 +47,17 @@ body .menu .price {
 body .menu .menu-line {
     border: 1px solid black;
     margin: 20px 0;
+}
+
+/* FOOTER */
+
+footer .odin {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #f5f3f3;
+}
+
+footer .odin:visited {
+    color: #f5f3f3;
 }
