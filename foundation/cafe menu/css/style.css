@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body .menu {
+    background-color:burlywood;
+    max-width: 500px;
+    margin: 10vh auto;
+    padding: 2em;
+}
+
+body .menu h2 {
+    text-align: center;
+    font-family: Impact, sans-serif;
+    font-weight: 300;
+    color: #f5f3f3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+body .menu .item {
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+    margin: 5px 0;
+}
+
+body .menu .price {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+}
+
+body .menu .menu-line {
+    border: 1px solid black;
+    margin: 20px 0;
+}
