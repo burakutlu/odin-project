@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="form-main">
+        <div class="heading">
+            <h1>Registration Form</h1>
+            <p>Hello there! Are you looking to register?</p>
+        </div>
+        <form class="form-in" action="www.google.com">
+            <fieldset>
+                <h2>Personal Information</h2>
+                <label>Enter your first name: <input type="text" name="firstname" id="firstname" required></label>
+                <label>Enter your last name: <input type="text" name="lastname" id="lastname" required></label>
+                <label>Enter your age: <input type="number" name="age" id="age" min="17" required></label>
+                <label>Enter your email: <input type="email" name="email" id="email" required></label>
+                <label>Enter your password: <input type="password" name="password" id="password" required></label>
+            </fieldset>
+            <fieldset>
+                <h2>Account</h2>
+                <label>Select an account type: </label>
+                <label>Standart Account<input type="radio" name="account-type" value="standart"></label>
+                <label>Premium Account<input type="radio" name="account-type" value="premium"></label>
+                <label>Enter an account id: <input type="number" name="account-id" id="account-id" min="8" required></label>
+            </fieldset>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>

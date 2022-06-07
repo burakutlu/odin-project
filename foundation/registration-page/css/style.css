@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* BODY */
+/* FORM MAIN */
+
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.heading p {
+    margin-bottom: 0.5rem;
+}
+
+/* FORM */
+
+.form-in label, .form-in input {
+    display: block;
+}
+
+.form-in h2 {
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.form-in label {
+    text-align: center;
+}
+
+.form-in label input {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-in #submit {
+    margin: 1rem auto 1rem auto;
+    padding: 1rem 3rem;
+}
