@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+/* FORM HEADER */
+
+.form-header {
+    text-align: center;
+}
+
+.form-header h1, p {
+    margin: 1rem 0;
+}
+
+/* FORM */
+
+.form form {
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form form fieldset {
+}
+
+.info label {
+    display: block;
+    margin: 1em 1em;
+}
+
+.info input[name="email"],
+.info input[name="name"] {
+    display: block;
+
+}

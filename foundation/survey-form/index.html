@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <div class="form-header">
+            <h1>Personality Test</h1>
+            <p>
+                This form will take about 10 minutes for you to answer.
+                It is split into 6 sections of which 5 focus on your personality. 
+                Please answer honestly.
+            </p>
+        </div>
+        <div class="form">
+            <form>
+                <fieldset class="info">
+                    <label>Email: <input type="email" name="email" id="email"></label>
+                    <label>What is your name: <input type="text" name="name" id="name"></label>
+                    <label>What is your gender?</label>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="femal">Female</label>
+                    <label><input type="radio" name="gender" value="other">Other</label>
+                </fieldset>
+                <fieldset class="test">
+                <label>Sympathize with others' feelings
+                    <select>
+                        <option value="v_inaccurate">Very Inaccurate</option>
+                        <option value="m_inaccurate">Moderate Inaccurate</option>
+                        <option value="neither">Neither</option>
+                        <option value="m_accurate">Moderately Accurate</option>
+                        <option value="v_accurate">Very Accurate</option>
+                    </select>
+                </label>
+                <label>Am not really interested in others
+                    <select>
+                        <option value="v_inaccurate">Very Inaccurate</option>
+                        <option value="m_inaccurate">Moderate Inaccurate</option>
+                        <option value="neither">Neither</option>
+                        <option value="m_accurate">Moderately Accurate</option>
+                        <option value="v_accurate">Very Accurate</option>
+                    </select>
+                </label>
+                <label>Feel others' emotions
+                    <select>
+                        <option value="v_inaccurate">Very Inaccurate</option>
+                        <option value="m_inaccurate">Moderate Inaccurate</option>
+                        <option value="neither">Neither</option>
+                        <option value="m_accurate">Moderately Accurate</option>
+                        <option value="v_accurate">Very Accurate</option>
+                    </select>
+                </label>
+                <label>Am not interested in other people's problems
+                    <select>
+                        <option value="v_inaccurate">Very Inaccurate</option>
+                        <option value="m_inaccurate">Moderate Inaccurate</option>
+                        <option value="neither">Neither</option>
+                        <option value="m_accurate">Moderately Accurate</option>
+                        <option value="v_accurate">Very Accurate</option>
+                    </select>
+                </label>
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
