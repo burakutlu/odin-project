@@ -1,0 +1,36 @@
+/* ABOUT THE BOX MODEL */
+
+.frame {
+    margin: auto;
+    border: 30px solid black;
+    width: 600px;
+    height: 500px;
+    background-color: burlywood;
+}
+
+.painting {
+    width: 80%;
+    height: 80%;
+    background-color: aquamarine;
+    padding: 2em;
+}
+
+.one {
+    width: 30%;
+    height: 30%;
+    background-color: bisque;
+}
+
+.two {
+    width: 30%;
+    height: 30%;
+    background-color:antiquewhite;
+}
+
+.three {
+    width: 30%;
+    height: 30%;
+    background-color:floralwhite;
+}
+
+
